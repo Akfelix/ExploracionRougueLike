@@ -20,11 +20,14 @@ div{
 #charPosition{
     display: flex;
     justify-content: space-between;
+    width:720px ;
+    margin: auto;
 }
 #charPosition > div{ /*Con esto se maneja el contenedor donde esta cada grupo de personajes*/
     height: 20em;
     padding: 5px;
     align-content: center;
+ 
 }
 #enemyBlock{ /*Con esto controlaremos que el grupo de enemigos se ubique en posiciones dependiendo de la cantidad que sean*/
     height: 30em;
@@ -76,4 +79,5 @@ right: 1em;
 top: 10.0em ;
 width: 19em;
 height:26em;
+background-color: rgb(221, 221, 221);
 }
