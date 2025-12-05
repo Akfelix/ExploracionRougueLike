@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entorno de prueba</title>
+    <script src="personaje.js" defer ></script>
+    <link rel="stylesheet" href="css/styleSheet.css">
+</head>
+
+<body>
+    <header>
+        <h1>Entorno de prueba</h1>
+        <p>Comprobación</p>
+    </header>
+<div id="mapa">
+ 
+</div>
+
+
+<div id="charPosition"> <!--Bloque objetos involucrados--> <!--Este bloque tiene que rellenarse mediante codigo de manera automatica dependiendo de los enemegios y los aliados que haya actualmente-->
+   <div>
+        <div id="stats-player">Player stats: </div>
+        <!--En caso de tener mas compañeros hay que añadirlo aqui, el maximo debe ser 4-->
+    </div>
+    
+    <div id="enemyBlock">
+        <!--Aqui se generaran de manera automatica los enemigos desde el .ts-->
+    </div>
+</div>
+
+<div class="acciones">
+    <h2>Bloque dinamico a continuación: </h2>
+
+    <button id="playerAttack">Atacar</button>
+    <button id="playerDefense">Esquivar</button>
+    <button id="playerFlee">huir</button>
+    <div id="informacionCombate">
+        <!--Este bloque estara vacio hasta que el js lo modifica y rescribe-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quis, dolorem, similique sapiente perspiciatis quaerat accusamus deserunt hic vitae harum voluptas vel recusandae maiores nostrum ex voluptatibus fugiat placeat quidem!</p>
+    </div>
+</div>
+
+
+    
+</body>
+</html>
